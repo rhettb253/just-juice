@@ -1,0 +1,41 @@
+/* Header Styles */
+
+ header{
+    margin:auto;
+    width: 960px;
+ }
+
+ #bgbannerimg{
+    position: relative;
+    z-index: 2
+ }
+
+ #headerinfobar {
+    position:relative;
+    top: -440px;
+    left: 20px;
+    z-index:6;
+    width: 95%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+ }
+
+ #logo {
+    margin-left: 20px;
+ }
+
+ ul{
+    display: flex;
+    list-style-type: none;
+ }
+
+ li{
+    color: whitesmoke;
+    padding-right: 20px;
+ }
+
+/* Main Styles */
+
