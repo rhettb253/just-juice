@@ -14,6 +14,10 @@ Currently our business owner Octavio does not have a website for his company Jus
 
 - As a user I want a page that displays a catalog of all juice options where the options are clickable and can add to the cart.
 
+- As a user I want to have a page for the cart where all selected juices are added from the catalog and can also be removed.
+
+- As a user I want the final page to be a create your own juice page. The page needs have a form to allow me to type in my name and pick the ingredients of the juice with a drop down menu and a submit button that adds the juice to the cart.
+
 ## Cooperation Plan
 
 Our team is solid. We have Darran, he is a master at CSS3. He has never met a styling object he can't overcome. Then there is Sheldon, he is a JavaScript menace. He literally puts the Java in your script. Lastly we have Rhett, he is a talented manager. He will make sure everyone is at task all day long. He is only capable of laying out the skeleton on HTML5. Darran and Rhett have experience driving and navigating together. They will have no problems getting the website structured and styled. Sheldon will inject his JavaScript knowledge to store data locally and fire it to the page when needed. Rhett wants to develop greater strength in JavaScript, specifically localStorage. Darran wants to derive a greater overall confidence in creating and understanding logical statements in JavaScript. Sheldon wants to understand algorithms better so he can make robots in the future. We plan to approach our day-to-day work by meeting up in the mornings and discussing what we achieved the day before and what we are going to attempt to achieve today. 
