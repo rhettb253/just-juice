@@ -1,0 +1,131 @@
+#body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header/Nav Bar */
+header {
+    margin: auto;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+}
+
+nav {
+    position: relative;
+    top: 2px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+
+#logo img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 2px;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    
+}
+
+#nav ul li {
+    padding-right: 40px;
+}
+
+#nav button {
+    background-color: transparent;
+    border: none;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 525;
+}
+
+#nav a:hover{
+    color: rgb(96, 177, 96);
+}
+
+/* Main/Form Submission */
+main{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    width: 300px; 
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+h3{
+    margin: 10px;
+    text-decoration: underline;
+}
+
+fieldset{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+legend {
+    font-size: 20px;
+}
+
+div#formnamesdiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#formnamesdiv label {
+    font-size: 20px;
+}
+
+#formnamesdiv input {
+    padding: 5px;
+    font-size: 15px;
+}
+
+div#ingrediantsdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+    ;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
