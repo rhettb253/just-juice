@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" src="reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 <body>
     <header id="header">
@@ -21,7 +21,7 @@
             <div id="nav">
                 <ul>
                     <li><button id="home">Home</button></li>
-                    <li><button id="juice">Juices</button></li>
+                    <li><button id="juice">juice</button></li>
                     <li><button id="cyo">Create Your Own</button></li>
                     <li><button id="cart">Cart</button></li>
                 </ul>
@@ -39,29 +39,60 @@
                 <h1>Featured</h1>
             </div>
             <div id="images">
-                <div id="img1" title="hello">
-                    <img src="ImagesJJ/individualJuices/C2.jpg" alt="">
+                <div id="img1">
+                    <img src="ImagesJJ/individualJuices/C2.jpg" alt="C-2">
                     <div id="img1_overlay">
-                        <div>C-2 
-                            <p>Celery, Cucumber, </p> 
+                        <div>
+                            <h3>C-2</h3>
                         </div>
+                        <div>
+                            <p id="description">
+                                <ul>
+                                    <li>Celery</li>
+                                    <li>Cucumber</li>
+                                    <li>Lemon</li>
+                                    <li>Ginger</li>
+                                    <li>Blue Spirulina</li>
+                                </ul>
+                            </p>
+                        </div> 
                     </div>
                 </div>
                 <div id="img2">
-                    <img src="ImagesJJ/individualJuices/F2.jpg" alt="">
+                    <img src="ImagesJJ/individualJuices/F2.jpg" alt="F-2">
                     <div id="img2_overlay">
-                        <div>F-2
-                            <p>Here goes Img2</p>
+                        <div>
+                            <h3>F-2</h3>
                         </div>
+                        <div>
+                            <p id="description">
+                                <ul>
+                                    <li>Apple</li>
+                                    <li>Pineapple</li>
+                                    <li>Lemon</li>
+                                    <li>Mint</li>
+                                </ul>
+                            </p>
+                        </div> 
                     </div>
-                    
-                </div>
+                </div>              
                 <div id="img3">
-                    <img src="ImagesJJ/individualJuices/CT2.jpg" alt="">
+                    <img src="ImagesJJ/individualJuices/CT2.jpg" alt="CT-2">
                     <div id="img3_overlay">
-                        <div>CT-2
-                            <p>Here goes Img3</p>
+                        <div>
+                            <h3>CT-2</h3>
                         </div>
+                        <div>
+                            <p id="description">
+                                <ul>
+                                    <li>Carrot</li>
+                                    <li>Orange</li>
+                                    <li>Pineapple</li>
+                                    <li>Tumeric</li>
+                                    <li>Black Pepper</li>
+                                </ul>
+                            </p>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -80,5 +111,6 @@
             </div>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
