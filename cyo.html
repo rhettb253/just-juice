@@ -21,8 +21,8 @@
             </div>
             <div id="nav">
                 <ul>
-                    <li><button><a href="#">Home</a></button></li>
-                    <li><button><a href="juices.html">Juices</a></button></li>
+                    <li><button><a href="index.html">Home</a></button></li>
+                    <li><button><a href="juice-page.html">Juices</a></button></li>
                     <li><button><a href="cyo.html">Create Your Own</a></button></li>
                     <li><button><a href="cart.html">Cart</a></button></li>
                 </ul>
@@ -30,7 +30,7 @@
         </nav>
     </header>
     <main>
-        <h2>Create Your Own</h2>
+        <img src="./ImagesJJ/cafePhotos/cyojuice.jpg" alt="create your own juice">
         <form>
             <fieldset>
                 <legend>CYO Juice Here!</legend>
@@ -46,6 +46,7 @@
                 </div>
                 <h3>Pick up to five ingrediants:</h3>
                 <div id="ingrediantsdiv">
+                    <div id="ingrediantscolumn1">
                     <div>
                         <label for="charcoal">Activated Charcoal</label>
                         <input type="checkbox" id="charcoal" name="charcoal" value="charcoal">
@@ -106,6 +107,8 @@
                         <label for="cucumber">Cucumber</label>
                         <input type="checkbox" id="cucumber" name="cucumber" value="cucumber">
                     </div>
+                </div>
+                <div id="ingrediantscolumn2">
                     <div>
                         <label for="dates">Dates</label>
                         <input type="checkbox" id="dates" name="dates" value="dates">
@@ -166,12 +169,23 @@
                         <label for="tumeric">Tumeric</label>
                         <input type="checkbox" id="tumeric" name="tumeric" value="tumeric">
                     </div>
+                </div>
+                </div>
+                <button>Create Your Juice!</button>
             </fieldset>
         </form>
     </main>
     <footer>
-        <div>
-            <img src="https://place-hold.it/900x75/ddd" alt="">
+        <div id="footerContents">
+            <div>
+                <p>Monday - Sunday 7am to 7pm</p>
+            </div>
+            <div>
+                <img src="ImagesJJ/cafePhotos/logo.jpg" alt="">
+            </div>
+            <div>
+                4309 W 27th Pl Suite 101 C, Kennewick, WA 99338
+            </div>
         </div>
     </footer>
 </body>
