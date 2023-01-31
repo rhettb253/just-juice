@@ -1,41 +1,224 @@
-/* Header Styles */
+#body {
+   margin: 0px;
+   font-family: 'Roboto', sans-serif;
+}
 
- header{
-    margin:auto;
-    width: 960px;
- }
+#featured {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+}
 
- #bgbannerimg{
-    position: relative;
-    z-index: 2
- }
+#featured h1 {
 
- #headerinfobar {
-    position:relative;
-    top: -440px;
-    left: 20px;
-    z-index:6;
-    width: 95%;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
- }
+}
 
- #logo {
-    margin-left: 20px;
- }
+header {
+   display: flex;
+   z-index: 1;
+   justify-content: center;
+}
 
- ul{
-    display: flex;
-    list-style-type: none;
- }
+header button {
+   font-size: 1.2rem;
+   font-weight: 525;
+}
 
- li{
-    color: whitesmoke;
-    padding-right: 20px;
- }
+header button:hover {
+   color: rgb(96, 177, 96);
+}
 
-/* Main Styles */
+nav {
+   display: flex;
+   justify-content: space-between;
+   width: 95%;
+}
 
+#logo {
+   padding-top: 15px;
+   height: 80px;
+   width: 80px;
+   position: relative
+}
+
+#nav ul {
+   display: flex;
+   justify-content: right;
+   list-style: none;
+}
+
+#nav ul li {
+   padding-right: 40px;
+   width: auto;
+   height: 25px;
+}
+
+#hero-section {
+   background-image:url("/ImagesJJ/cafePhotos/juicelounge.jpg");
+   background-repeat: no-repeat;
+   background-position: 25% 50%;
+   background-size: cover;
+   width: 100%;
+   height: 450px;
+   z-index: -1;
+   margin-top: -95px;
+   display: flex;
+   align-items: flex-end;
+
+}
+
+#hero-section button {
+   margin: 30px;
+   background-color: transparent;
+   color: white;
+   font-size: 1.2rem;
+   font-weight: 525;
+}
+
+#hero-section button:hover {
+   color: rgb(235, 147, 76);
+}
+
+#images {
+   display: flex;
+   padding: 0px 30px;
+   gap: 100px;
+   flex-wrap: wrap;
+}
+
+#images img {
+   width: 300px;
+   height: 400px;
+}
+
+
+footer {
+   background-color: black;
+   color: white;
+   width: auto;
+   padding: 10px;
+   margin-top: 40px;
+}
+
+#footerContents {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 250px;
+   padding-left: 130px;
+}
+
+footer div{
+   display: flex;
+   justify-content: center;
+}
+
+footer img {
+   height: 50px;
+   width: 50px;
+}
+
+button {
+   background-color: transparent;
+   color: white;
+   border-style: none;
+}
+
+#images div p {
+   z-index: -1;
+}
+
+/* #images div:hover {
+   background-color: aliceblue;
+   opacity: 25%; */
+
+/* } */
+
+#images {
+   position: relative;
+}
+
+#img1_overlay {
+   position: absolute;
+   top: 0;
+   left: 30px;
+   width: 300px;
+   height: 400px;
+   background: rgba(0, 0, 0, 0.6);
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   opacity: 0;
+   transition: opacity 0.25s;
+}
+
+#img1_overlay:hover {
+   opacity: 1;
+}
+
+#img1_overlay div {
+   font-size: 2em;
+   font-weight: bold;
+}
+
+#img2_overlay {
+   position: absolute;
+   top: 0;
+   left: 460;
+   width: 300px;
+   height: 400px;
+   background: rgba(0, 0, 0, 0.6);
+   color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   opacity: 0;
+   transition: opacity 0.25s;
+}
+
+#img2_overlay:hover {
+   opacity: 1;
+}
+
+#img2_overlay div {
+   font-size: 2em;
+   font-weight: bold;
+}
+
+#img2_overlay div p {
+   font-size: 1.25em;
+}
+
+#img3_overlay {
+   position: absolute;
+   top: 0;
+   left: 790;
+   width: 300px;
+   height: 400px;
+   background: rgba(0, 0, 0, 0.6);
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   opacity: 0;
+}
+
+#img3_overlay:hover {
+   opacity: 1;
+}
+
+#img3_overlay div {
+   font-size: 2em;
+   font-weight: bold;
+}
+
+#img3_overlay p {
+   font-size: 1.25em;
+}
