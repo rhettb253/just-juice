@@ -1,5 +1,10 @@
-#body {
+body {
+    position: relative;
     font-family: 'Roboto', sans-serif;
+    background-image: url('../ImagesJJ/cafePhotos/interiorchair.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Header/Nav Bar */
@@ -69,13 +74,10 @@ main{
     justify-content: center;
 }
 
-h2{
-    width: 300px; 
-    padding: 20px;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-size: 40px;
+main img {
+    margin-top: 30px;
+    border-radius: 35%;
+    opacity: 90%;
 }
 
 h3{
@@ -91,6 +93,9 @@ fieldset{
     align-items: center;
     gap: 20px;
     padding: 20px;
+    color: white;
+    background-color: rgba(9, 5, 1, 0.75);
+    border: double 16px rgb(47, 30, 5);
 }
 
 legend {
@@ -115,17 +120,63 @@ div#formnamesdiv {
 
 div#ingrediantsdiv {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 15px;
+}
+
+div#ingrediantscolumn1{
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
     gap: 5px;
-    ;
+}
+
+div#ingrediantscolumn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: rgb(96, 177, 96);;
+}
+
+button:hover{
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 6px;
 }
 
 /* Footer */
 footer {
+    background-color: black;
+    color: white;
+    width: 95%;
+    padding: 10px;
+    margin: 40px auto 0;
+ }
+ 
+ #footerContents {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-}
+    gap: 230px;
+    margin-left: 130px;
+ }
+ 
+
+ footer img {
+    height: 50px;
+    width: 50px;
+ }
+ 
