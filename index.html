@@ -4,46 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <title>Just Juice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" src="reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js">
 </head>
 <body>
-    <header>
-        <img src="https://place-hold.it/960x450/ddd" id="bgbannerimg">
-        <section id="headerinfobar">
-            <div id="logodiv">
-                <img src="https://place-hold.it/30x40/ddd" id="logo">
+    <header id="header">
+        <nav>
+            <div id="logo">
+                <img src="ImagesJJ/cafePhotos/logo.jpg" alt="JustJuice Logo">
             </div>
-            <div id="navlistdiv">
-                <nav>
-                    <ul>
-                        <li><a>Home</a></li>
-                        <li><a>Juices</a></li>
-                        <li><a>Create Your Own</a></li>
-                        <li><a>Cart</a></li>
-                    </ul>
-                </nav>
+            <div id="nav">
+                <ul>
+                    <li><button id="home">Home</button></li>
+                    <li><button id="juice">Juices</button></li>
+                    <li><button id="cyo">Create Your Own</button></li>
+                    <li><button id="cart">Cart</button></li>
+                </ul>
             </div>
-        </section>
-        <div id="cart">
-            <p>Cart</p>
-        </div>
-        <div id="button">
-            <button></button>
-        </div>
+        </nav>
     </header>
     <main>
-        <div>
-            <h2>Featured</h2>
+        <div id="hero-section">
+            <div id="button">
+                <button id="cyo">Create Your Own</button>
+            </div>
         </div>
-        <div id="imagesdiv">
-            <img src="https://place-hold.it/300x400/ddd" id="featureOne">
-            <img src="https://place-hold.it/300x400/ddd" id="featureTwo">
-            <img src="https://place-hold.it/300x400/ddd" id="featureThree">
+        <div id="featured">
+            <div>
+                <h1>Featured</h1>
+            </div>
+            <div id="images">
+                <div id="img1" title="hello">
+                    <img src="ImagesJJ/individualJuices/C2.jpg" alt="">
+                    <div id="img1_overlay">
+                        <div>C-2 
+                            <p>Celery, Cucumber, </p> 
+                        </div>
+                    </div>
+                </div>
+                <div id="img2">
+                    <img src="ImagesJJ/individualJuices/F2.jpg" alt="">
+                    <div id="img2_overlay">
+                        <div>F-2
+                            <p>Here goes Img2</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="img3">
+                    <img src="ImagesJJ/individualJuices/CT2.jpg" alt="">
+                    <div id="img3_overlay">
+                        <div>CT-2
+                            <p>Here goes Img3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
+        <div id="footerContents">
+            <div>
+                <p>Monday - Sunday 7am to 7pm</p>
+            </div>
+            <div>
+                <img src="ImagesJJ/cafePhotos/logo.jpg" alt="">
+            </div>
+            <div>
+                4309 W 27th Pl Suite 101 C, Kennewick, WA 99338
+            </div>
+        </div>
     </footer>
 </body>
 </html>
