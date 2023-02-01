@@ -1,0 +1,301 @@
+body{
+    align-items: center;
+}
+
+main{
+    width: 100%;
+    align-items: center;
+}
+
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 30px;
+    
+}
+
+header{
+    width: 100%;
+    
+}
+
+#body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: black;
+}
+
+#logo {
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+#nav ul li {
+    padding-right: 40px;
+}
+
+.catalog {
+    gap: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center; 
+}
+
+.group2 img {
+    width: 225px;
+    height: 275px;
+}
+
+.group1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.group1 img {
+    padding-bottom: 40px;
+
+    width: 325px;
+    height: 300px;
+    gap: 30px;
+
+}
+
+.group2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+
+hr {
+    border: 1px solid black;
+    width: 75%;
+}
+
+#juice-menu {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+#juice-menu hr {
+    width: 100%;
+}
+
+main {
+    text-align: center;
+}
+
+#favs {
+    padding-top: 100px;
+    text-align: center;
+}
+
+h1 {
+    width: 300px; 
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    width: auto;
+    padding: 10px;
+    margin-top: 40px;
+ }
+ 
+ #footerContents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    padding-left: 130px;
+ }
+ 
+ footer div{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ footer img {
+    height: 50px;
+    width: 50px;
+ }
+ 
+ /* header */
+
+/* Header/Nav Bar */
+header {
+    margin: auto;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+}
+
+nav {
+    position: relative;
+    top: 2px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+
+#logo img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -6px;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    
+}
+
+#nav ul li {
+    padding-right: 40px;
+}
+
+#nav button {
+    background-color: transparent;
+    border: none;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 525;
+}
+
+#nav a:hover{
+    color: rgb(96, 177, 96);
+}
+
+/* hover */
+
+.hover1 {
+    position: relative;
+    width: 325px;
+    height: 300px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .hover1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    opacity: 70%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .hover2 {
+    position: relative;
+    width: 225px;
+    height: 275px;
+  }
+
+  .hover2:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    opacity: 70%;
+  }
+
+  .text h2 {
+    font-size: 25px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+
