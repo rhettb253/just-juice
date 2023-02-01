@@ -141,6 +141,10 @@ div#ingrediantscolumn2{
     gap: 5px;
 }
 
+/* input:checked{
+    background-color: rgb(96, 177, 96);
+} */
+
 button{
     margin-top: 10px;
     padding: 10px;
