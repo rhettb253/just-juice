@@ -67,8 +67,14 @@ footer {
     margin-top: 30px;
 }
 
-h1 {
-    text-align: center; 
+.menu-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+} 
+
+.menu-img img {
+    width: 25%;
 }
 
 .group2 img {
@@ -210,7 +216,7 @@ nav {
     display: flex;
     justify-content: right;
     list-style: none;
-    
+    /* margin-top: -65px; */
 }
 
 #nav ul li {
