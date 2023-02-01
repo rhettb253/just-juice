@@ -296,4 +296,11 @@ nav {
     padding: 0;
   }
 
+#cart-div p {
+    display: none;
+}
 
+.text button {
+    background-color: transparent;
+    color: white;
+}
