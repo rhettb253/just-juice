@@ -82,18 +82,20 @@ h1 {
     margin: auto;
     align-items: center;
     justify-content: space-between;
+
     width: auto;
     padding-top: 30px;
     padding-bottom: 100px;
     gap: 30px;
-    
 }
 
 .group1 img {
     padding-bottom: 40px;
+
     width: 325px;
     height: 300px;
     gap: 30px;
+
 }
 
 .group2 {
@@ -295,3 +297,5 @@ nav {
     list-style: none;
     padding: 0;
   }
+
+
