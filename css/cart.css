@@ -1,7 +1,7 @@
 body {
     position: relative;
     font-family: 'Roboto', sans-serif;
-    background-image: url('../ImagesJJ/cafePhotos/interiorchair.jpg');
+    background-image: url('../ImagesJJ/cafePhotos/cafelayout.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,99 +65,50 @@ nav {
     color: rgb(96, 177, 96);
 }
 
-/* Main/Form Submission */
-main{
-    margin: auto;
+/* Main */
+
+section{
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-main img {
-    margin-top: 30px;
-    border-radius: 35%;
-    opacity: 90%;
-}
-
-h3{
-    margin: 10px;
-    text-decoration: underline;
-}
-
-fieldset{
-    margin: 30px 0;
-    display: flex;
-    flex-direction: column;
+    max-width: 90%;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
     padding: 20px;
-    color: white;
+    color: whitesmoke;
     background-color: rgba(9, 5, 1, 0.75);
     border: double 16px rgb(47, 30, 5);
 }
 
-legend {
-    font-size: 20px;
+h3{
+    font-size: 40px;
+    margin: 10px;
+    text-decoration: underline;;
 }
 
-div#formnamesdiv {
+div#cart{
     display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+    padding: 20px;
+    color: whitesmoke;
 }
 
-#formnamesdiv label {
-    font-size: 20px;
+div#purchasebutton{
+    align-self: flex-end;
+    margin-right: 10%;
 }
 
-#formnamesdiv input {
-    padding: 5px;
-    font-size: 15px;
-}
-
-div#ingrediantsdiv {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    column-gap: 15px;
-}
-
-div#ingrediantscolumn1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 5px;
-}
-
-div#ingrediantscolumn2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 5px;
-}
-
-/* input:checked{
+#purchasebutton button{
+    padding: 10px 15px;
     background-color: rgb(96, 177, 96);
-} */
-
-button{
-    margin-top: 10px;
-    padding: 10px;
-    font-size: 20px;
     border: 3px solid black;
     border-radius: 8px;
-    background-color: rgb(96, 177, 96);;
-}
-
-button:hover{
-    padding: 12px;
-    cursor: pointer;
-    margin-top: 6px;
+    font-size: 15px;
 }
 
 /* Footer */
