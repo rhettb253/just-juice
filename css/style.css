@@ -56,7 +56,7 @@ nav {
 }
 
 #hero-section {
-   background-image:url("/ImagesJJ/cafePhotos/juicelounge.jpg");
+   background-image:url("../ImagesJJ/cafePhotos/juicelounge.jpg");
    background-repeat: no-repeat;
    background-position: 25% 50%;
    background-size: cover;
