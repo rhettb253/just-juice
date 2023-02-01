@@ -225,3 +225,21 @@ button {
    font-size: 2rem;
    list-style: none;
 }
+
+#cart-div button {
+   padding-top: 15px;
+   font-size: 2rem;
+}
+
+#cart-div {
+   transition: all;
+}
+
+#cart-div button:hover {
+   color: rgb(96, 177, 96);
+}
+
+#cart-div p {
+   display: none;
+}
+
