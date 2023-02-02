@@ -15,6 +15,7 @@ let finalCart = JSON.parse(localStorage.getItem('cart'))
 
 function Juice(name) {
     this.name = name
+    total += 9
     itemsInCart.push(name)
 };
 
