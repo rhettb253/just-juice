@@ -13,7 +13,7 @@ function Juice(name) {
 
 function render() {
     for (let i = 0; i < finalCart.length; i++) {
-        $('#cartItems').append(`<li>${finalCart[i]}: $9`)
+        $('#cartItems').append(`<li>${finalCart[i]} : $9`)
     }
     $('#total').append(`<div> total: ${total}`)
 }
