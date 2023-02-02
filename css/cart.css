@@ -31,7 +31,7 @@ nav {
 }
 
 
-#logo img{
+#logo img {
     width: 80px;
     height: 80px;
     position: relative;
@@ -42,7 +42,7 @@ nav {
     display: flex;
     justify-content: right;
     list-style: none;
-    
+
 }
 
 #nav ul li {
@@ -54,20 +54,20 @@ nav {
     border: none;
 }
 
-#nav a{
+#nav a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 525;
 }
 
-#nav a:hover{
+#nav a:hover {
     color: rgb(96, 177, 96);
 }
 
 /* Main */
 
-section{
+section {
     margin: 30px auto;
     display: flex;
     flex-direction: column;
@@ -81,13 +81,14 @@ section{
     border: double 16px rgb(47, 30, 5);
 }
 
-h3{
+h3 {
     font-size: 40px;
     margin: 10px;
-    text-decoration: underline;;
+    text-decoration: underline;
+    ;
 }
 
-div#cart{
+div#cart {
     display: flex;
     flex-wrap: wrap;
     max-width: 90%;
@@ -98,12 +99,12 @@ div#cart{
     color: whitesmoke;
 }
 
-div#purchasebutton{
+div#purchasebutton {
     align-self: flex-end;
     margin-right: 10%;
 }
 
-#purchasebutton button{
+#purchasebutton button {
     padding: 10px 15px;
     background-color: rgb(96, 177, 96);
     border: 3px solid black;
@@ -118,19 +119,47 @@ footer {
     width: 95%;
     padding: 10px;
     margin: 40px auto 0;
- }
- 
- #footerContents {
+}
+
+#footerContents {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 230px;
     margin-left: 130px;
- }
- 
- footer img {
+}
+
+footer img {
     height: 50px;
     width: 50px;
- }
- 
+}
+
+#cartItems {
+
+    padding: 5px;
+}
+
+#cartItems li {
+    margin: 20px;
+    background-color: #2f1e058a;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#total {
+    margin: 20px;
+    background-color: #2f1e058a;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
