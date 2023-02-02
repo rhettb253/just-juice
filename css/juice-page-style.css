@@ -71,6 +71,12 @@ footer {
     padding-top: 75px;
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #666c49;
+    margin-top: 50px;
+}
+
 .menu-img img {
     width: 25%;
 }
