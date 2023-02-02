@@ -28,6 +28,7 @@ function formHandler(event) {
         document.querySelector('section h3').style.display = "none";
         paraEl.textContent = 'We are missing your name and/or ingredients. Please review your submission so we can create your juice.'
         sectionEl.appendChild(paraEl);
+        setTimeout(function(){window.location.reload()}, 4000);
     } else if (submitInfo.length === 3){
         paraEl.textContent = `${submitInfo[0]}'s Juice: ${submitInfo[2]}.`;
         paraEl2.textContent = "Your creation has been added to your cart!"
