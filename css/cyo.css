@@ -180,11 +180,13 @@ section {
 section h3 {
     margin: 10px 50px;
     align-self: flex-start;
+    font-size: 30px;
 }
 
 section p {
     margin: 10px 50px;
     align-self: flex-end;
+    font-size: 18px;
 }
 
 /* Footer */
