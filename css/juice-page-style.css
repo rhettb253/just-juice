@@ -256,6 +256,7 @@ nav {
     height:0;
     transition: .5s ease;
   }
+
   
   .hover1:hover .overlay {
     bottom: 0;
@@ -304,3 +305,8 @@ nav {
     background-color: transparent;
     color: white;
 }
+
+
+ #cart-div button:hover {
+    color: rgb(96, 177, 96);
+ }
