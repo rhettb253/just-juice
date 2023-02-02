@@ -8,7 +8,6 @@ formEl.addEventListener('submit', formHandler);
 
 function formHandler(event) {
     event.preventDefault();
-    // console.log(event.target);
     let namef = document.querySelectorAll('input[id="fname"]')[0];
     console.log(namef.value);
     submitInfo.push(namef.value);
@@ -59,4 +58,5 @@ function formHandler(event) {
         paraEl.textContent = "You have selected too many ingredients. Please refresh and try again.";
         sectionEl.appendChild(paraEl);
     } 
+    formEl.style.display = "none";
 }
