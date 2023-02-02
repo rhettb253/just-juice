@@ -31,7 +31,7 @@ nav {
 }
 
 
-#logo img{
+#logo img {
     width: 80px;
     height: 80px;
     position: relative;
@@ -42,7 +42,7 @@ nav {
     display: flex;
     justify-content: right;
     list-style: none;
-    
+
 }
 
 #nav ul li {
@@ -54,19 +54,19 @@ nav {
     border: none;
 }
 
-#nav a{
+#nav a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 525;
 }
 
-#nav a:hover{
+#nav a:hover {
     color: rgb(96, 177, 96);
 }
 
 /* Main/Form Submission */
-main{
+main {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -80,12 +80,12 @@ main img {
     opacity: 90%;
 }
 
-h3{
+form h3 {
     margin: 10px;
     text-decoration: underline;
 }
 
-fieldset{
+fieldset {
     margin: 30px 0;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ div#ingredientsdiv {
     column-gap: 15px;
 }
 
-div#ingredientscolumn1{
+div#ingredientscolumn1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -133,7 +133,7 @@ div#ingredientscolumn1{
     gap: 5px;
 }
 
-div#ingredientscolumn2{
+div#ingredientscolumn2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -141,29 +141,50 @@ div#ingredientscolumn2{
     gap: 5px;
 }
 
-/* input:checked{
-    background-color: rgb(96, 177, 96);
-} */
-
-button{
+button {
     margin-top: 10px;
     padding: 10px;
     font-size: 20px;
     border: 3px solid black;
     border-radius: 8px;
-    background-color: rgb(96, 177, 96);;
+    background-color: rgb(96, 177, 96);
+    ;
 }
 
-button:hover{
+button:hover {
     padding: 12px;
     cursor: pointer;
     margin-top: 6px;
 }
 
-button:active{
+button:active {
     padding: 10px;
     cursor: pointer;
     margin-top: 10px;
+}
+
+section {
+    margin: 30px 0;
+    min-width: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(9, 5, 1, 0.75);
+    border: double 16px rgb(47, 30, 5);
+}
+
+section h3 {
+    margin: 10px 50px;
+    align-self: flex-start;
+}
+
+section p {
+    margin: 10px 50px;
+    align-self: flex-end;
 }
 
 /* Footer */
@@ -173,19 +194,18 @@ footer {
     width: 95%;
     padding: 10px;
     margin: 40px auto 0;
- }
- 
- #footerContents {
+}
+
+#footerContents {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 230px;
     margin-left: 130px;
- }
- 
- footer img {
+}
+
+footer img {
     height: 50px;
     width: 50px;
- }
- 
+}

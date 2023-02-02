@@ -12,8 +12,9 @@
 }
 
 #featured h1 {
-
+   font-size: 32px;
 }
+
 
 header {
    display: flex;
