@@ -11,18 +11,14 @@ function Juice(name) {
     itemsInCart.push(name)
 };
 
-function render() {
-    for (let i = 0; i < finalCart.length; i++) {
-        $('#cartItems').append(`<li>${finalCart[i]}: $9`)
-    }
-    $('#total').append(`<div> total: ${total}`)
-}
 
 if (mainCart) {
     for (let i = 0; i < mainCart.length; i++) {
         itemsInCart.push(mainCart[i])
         $('#cartItems').append(`<li>${mainCart[i]}`)
+
     }
+    $('#total').append(`<div>$${mainCart.length * 9}`)
 }
 
 function clearCart() {
@@ -62,7 +58,7 @@ $('#cart').click(function () {
 
 
 $('#juiceButton').click(function(){
-    itemsInCart.push(`Create Your Own : 11`);
+    itemsInCart.push(`Create Your Own`);
     localStorage.setItem('homeCart',JSON.stringify(itemsInCart))
 })
 
@@ -70,7 +66,7 @@ $('.B1').click(function () {
     $('.B1 p').show();
     new Juice('B-1');
     total += 9
-    localStorage.setItem('cart', JSON.stringify(itemsInCart));
+    localStorage.setItem('homeCart', JSON.stringify(itemsInCart));
     setTimeout(function () {
         $('.B1 p').hide()
     }, 1500);

@@ -141,9 +141,9 @@ footer img {
 }
 
 #cartItems li {
-    margin: 20px;
+    margin: 5px;
     background-color: #2f1e058a;
-    padding: 20px;
+    padding: 15px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     list-style: none;
@@ -153,9 +153,9 @@ footer img {
 }
 
 #total {
-    margin: 20px;
+    margin: 10px;
     background-color: #2f1e058a;
-    padding: 20px;
+    padding: 15px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     list-style: none;
