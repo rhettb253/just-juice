@@ -11,6 +11,7 @@ function Juice(name) {
     itemsInCart.push(name)
 };
 
+
 if (mainCart) {
     for (let i = 0; i < mainCart.length; i++) {
         itemsInCart.push(mainCart[i])
