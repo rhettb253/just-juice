@@ -94,31 +94,43 @@ nav {
 }
 
 
+/* Footer */
 footer {
    background-color: black;
    color: white;
-   width: auto;
+   width: 95%;
    padding: 10px;
-   margin-top: 40px;
+   margin: 40px auto 0;
 }
 
 #footerContents {
    display: flex;
    flex-direction: row;
    align-items: center;
-   justify-content: center;
-   gap: 250px;
-   padding-left: 130px;
+   justify-content: space-around;
 }
 
-footer div{
+footer h4{
+   font-weight: 600;
+   text-decoration: underline;
+}
+
+div.leftfooter{
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding-right: 7%;
+}
+
+div.rightfooter{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
 }
 
 footer img {
-   height: 50px;
-   width: 50px;
+   height: 100px;
+   width: 100px;
 }
 
 button {

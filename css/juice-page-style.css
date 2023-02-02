@@ -71,6 +71,12 @@ footer {
     padding-top: 75px;
 }
 
+#all-juices {
+    font-family: 'Roboto', sans-serif;
+    color: #666c49;
+    margin-top: 50px;
+}
+
 .menu-img img {
     width: 25%;
 }
@@ -143,33 +149,45 @@ main {
 
 
 
-/* footer */
+/* Footer */
 footer {
     background-color: black;
     color: white;
-    width: auto;
+    width: 95%;
     padding: 10px;
-    margin-top: 40px;
- }
- 
- #footerContents {
+    margin: 40px auto 0;
+}
+
+#footerContents {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 250px;
-    padding-left: 130px;
- }
- 
- footer div{
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer h4{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+div.leftfooter{
     display: flex;
-    justify-content: center;
- }
- 
- footer img {
-    height: 50px;
-    width: 50px;
- }
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 7%;
+}
+
+div.rightfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+footer img {
+    height: 100px;
+    width: 100px;
+}
  
  /* header */
 
