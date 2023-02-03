@@ -324,6 +324,9 @@ nav {
     color: white;
 }
 
+#cart-div button{
+    border: none;
+}
 
  #cart-div button:hover {
     color: rgb(96, 177, 96);
